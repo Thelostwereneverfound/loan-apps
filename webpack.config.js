@@ -26,12 +26,36 @@ const generateHTMLPlugins = () => glob.sync('./src/*.html').map((dir) => {
     paths.push(filename);
   }
 
-  return new HtmlWebpackPlugin({
+  // Special handling for 404.html to redirect to soldifi.com
+  const options = {
     filename,
     template: `./src/${filename}`,
     favicon: `./src/images/favi.png`,
     inject: 'body',
-  });
+  };
+
+  // For 404.html, add a redirect script to soldifi.com
+  if (filename === '404.html') {
+    options.inject = false; // prevent default injection
+    options.templateContent = `
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Redirecting...</title>
+          <script>
+            window.location.href = 'https://www.soldifi.com';
+          </script>
+        </head>
+        <body>
+          <p>If you are not redirected, <a href="https://www.soldifi.com">click here</a>.</p>
+        </body>
+      </html>
+    `;
+  }
+
+  return new HtmlWebpackPlugin(options);
 });
 
 module.exports = {

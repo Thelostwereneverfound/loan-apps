@@ -2618,9 +2618,6 @@ body{
 .max-w-\[579px\]{
   max-width: 579px;
 }
-.max-w-\[597px\]{
-  max-width: 597px;
-}
 .max-w-\[714px\]{
   max-width: 714px;
 }
@@ -3151,10 +3148,6 @@ body{
 .text-heading-2{
   font-size: 48px;
   line-height: 58px;
-}
-.text-heading-3{
-  font-size: 40px;
-  line-height: 48px;
 }
 .text-heading-4{
   font-size: 30px;
@@ -4233,11 +4226,6 @@ body{
     padding-bottom: 1rem !important;
   }
 
-  .lg\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .lg\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -4352,10 +4340,6 @@ body{
     padding-bottom: 6.875rem;
   }
 
-  .xl\:pb-30{
-    padding-bottom: 7.5rem;
-  }
-
   .xl\:pt-27{
     padding-top: 6.75rem;
   }
@@ -4380,13 +4364,6 @@ body{
   .xl\:text-heading-2{
     font-size: 48px;
     line-height: 58px;
-  }
-}
-
-@media (min-width: 1536px){
-
-  .\32xl\:pb-\[150px\]{
-    padding-bottom: 150px;
   }
 }
 
