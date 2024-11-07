@@ -1,0 +1,14 @@
+{
+    "redirects": [
+      {
+        "source": "/launch", 
+        "destination": "https://www.soldifi.com", 
+        "permanent": true
+      },
+      {
+        "source": "/404", 
+        "destination": "https://www.soldifi.com"git add .
+      }
+    ]
+  }
+  
