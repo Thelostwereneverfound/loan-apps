@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soldi</title>
+</head>
+
+<body x-data="{ page: 'home', 'loaded': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }">
+  <!-- ===== Header Start ===== -->
+  <include src="./partials/header.html" />
+  <!-- ===== Header End ===== -->
+
+  <main>
+    <!-- ===== Hero Section Start ===== -->
+    <section id="home" class="relative overflow-hidden z-10 pt-35 md:pt-40 xl:pt-45">
+      <!-- Hero Bg Shapes -->
+      <div class="max-w-7xl mx-auto">
+        <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden -mx-28">
+          <div
+            class="absolute -z-1 -top-[128%] sm:-top-[107%] xl:-top-[73%] left-1/2 -translate-x-1/2 -u-z-10 hero-circle-gradient w-full h-[1282px] rounded-full max-w-[1282px]">
+          </div>
+          <div
+            class="absolute -z-1 -top-[112%] sm:-top-[93%] xl:-top-[62%] left-1/2 -translate-x-1/2 -u-z-10 hero-circle-gradient w-full h-[1046px] rounded-full max-w-[1046px]">
+          </div>
+          <div class="absolute top-0 left-1/2 -translate-x-1/2 -u-z-10">
+            <img src="./images/blur/blur-02.svg" alt="blur" class="max-w-none">
+          </div>
+          <div class="absolute top-0 left-1/2 -translate-x-1/2 -u-z-10">
+            <img src="./images/blur/blur-01.svg" alt="blur" class="max-w-none">
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="mx-auto max-w-[900px] px-4 sm:px-8 xl:px-0 relative z-1">
+        <div class="text-center">
+          <a href="/#"
+            class="hero-subtitle-gradient hover:hero-subtitle-hover relative mb-5 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full">
+            
+
+            <span class="hero-subtitle-text">
+              Redefining finance through DeFi!
+            </span>
+          </a>
+          <h1 class="text-white mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1">
+            Reimagining finance together. Effortless lending, protected borrowing—blockchain revolutionized.
+          </h1>
+          <p class="max-w-[500px] mx-auto mb-9 font-medium md:text-lg">
+            Secured by smart contracts, powered by Ethereum blockchain.
+          </p>
+
+          <a href="https://drive.google.com/file/d/1wCLe04y6R2es4jkdXs-loJca1tLW2dp5/view?usp=sharing" target="_blank"
+   class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80 mb-6">
+   Whitepaper
+</a>
+
+        </div>
+      </div>
+
+      
+    </section>
+    <!-- ===== Hero Section End ===== -->
+
+    <!-- ===== features grid Section Start ===== -->
+    
+    <!-- ===== features grid Section End ===== -->
+
+    <!-- ===== features list Section Start ===== -->
+    <section class="pt-12.5">
+      <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
+        <div class="grid sm:grid-cols-12 gap-7.5" data-highlighter>
+          <!-- features item -->
+          <div class="sm:col-span-12">
+            <div class="relative rounded-3xl features-box-border">
+              <div class="relative overflow-hidden rounded-3xl p-10 xl:p-15 box-hover">
+                <div class="flex items-center justify-between relative z-20">
+                  <div class="max-w-[477px] w-full">
+                    
+                    <h3 class="text-white mb-4.5 font-bold text-heading-4">
+                      The Dynamics of Soldi: A New Frontier in Financial Solutions.
+                      <p style="font-size: 0.875rem; color: #6b7280;" class="mb-10">
+                        Earn passive income with Ethereum assets.
+                      </p>
+                      
+                    <a href="404.html"
+                      class="features-button-gradient relative inline-flex items-center gap-1.5 rounded-full py-3 px-6 text-white text-sm ease-in duration-300 hover:shadow-button">
+                      Launch App
+                      <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M13.3992 5.60002L8.22422 0.350024C7.99922 0.125024 7.64922 0.125024 7.42422 0.350024C7.19922 0.575024 7.19922 0.925025 7.42422 1.15002L11.6242 5.42503H0.999219C0.699219 5.42503 0.449219 5.67502 0.449219 5.97502C0.449219 6.27502 0.699219 6.55003 0.999219 6.55003H11.6742L7.42422 10.875C7.19922 11.1 7.19922 11.45 7.42422 11.675C7.52422 11.775 7.67422 11.825 7.82422 11.825C7.97422 11.825 8.12422 11.775 8.22422 11.65L13.3992 6.40002C13.6242 6.17502 13.6242 5.82502 13.3992 5.60002Z"
+                          fill="white" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="max-w-[428px] w-full block">
+                    <img src="./images/hero/phone.png" alt="icon" />
+                  </div>
+                  
+                </div>
+
+               
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== features list Section End ===== -->
+
+    <section id="features" class="overflow-hidden pt-17.5 lg:pt-22.5 xl:pt-27.5 scroll-mt-17">
+      <div class="max-w-[1222px] mx-auto px-4 sm:px-8 xl:px-0">
+        <!-- Section Title -->
+        <div class="wow fadeInUp text-center">
+          
+          <h2 class="text-white mb-4.5 text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
+            Soldi: Essential Features and Benefits Overview.
+          </h2>
+          <p class="max-w-[714px] mx-auto mb-5 font-medium">
+            Surpassing Traditional Financial Systems with DeFi Solutions!
+          </p>
+        </div>
+
+        <div class="relative">
+          <div
+            class="features-row-border rotate-90 w-1/2 h-[1px] absolute top-1/2 left-1/2 -translate-y-1/2 lg:-translate-x-1/3 lg:left-1/4 hidden lg:block">
+          </div>
+          <div
+            class="features-row-border rotate-90 w-1/2 h-[1px] absolute top-1/2 right-1/2 -translate-y-1/2 lg:right-[8.3%] hidden lg:block">
+          </div>
+
+          <!--=== Features Row ===-->
+          <div class="flex flex-wrap justify-center">
+            <!-- Features Item -->
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+              <div class="group relative overflow-hidden text-center py-8 sm:py-10 xl:py-15 px-4 lg:px-8 xl:px-13">
+                <span
+                  class="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1"></span>
+                <span
+                class="icon-border relative max-w-[80px] w-20 h-20 rounded-none inline-flex items-center justify-center mb-8 mx-auto">
+                  <img src="./images/secure-removebg-preview.png" alt="icon" />
+                </span>
+                <h4 class="font-semibold text-lg text-white mb-4">
+                  Secure & Decentralized:
+                </h4>
+                <p class="font-medium">
+                  Smart contracts manage and secure transactions automatically.
+                </p>
+              </div>
+            </div>
+
+            <!-- Features Item -->
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+              <div class="group relative overflow-hidden text-center py-8 sm:py-10 xl:py-15 px-4 lg:px-8 xl:px-13">
+                <span
+                  class="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1"></span>
+                <span
+                class="icon-border relative max-w-[80px] w-20 h-20 rounded-none inline-flex items-center justify-center mb-8 mx-auto">
+
+                  <img src="./images/users-removebg-preview.png" alt="icon" />
+                </span>
+                <h4 class="font-semibold text-lg text-white mb-4">
+                  Users Define Their Own Terms:
+                </h4>
+                <p class="font-medium">
+                  Customize your lending and borrowing conditions to fit your needs.
+                </p>
+              </div>
+            </div>
+
+            <!-- Features Item -->
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+              <div class="group relative overflow-hidden text-center py-8 sm:py-10 xl:py-15 px-4 lg:px-8 xl:px-13">
+                <span
+                  class="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1"></span>
+                <span
+                class="icon-border relative max-w-[80px] w-20 h-20 rounded-none inline-flex items-center justify-center mb-8 mx-auto">
+                  <img src="./images/transparent-removebg-preview.png" alt="icon" />
+                </span>
+                <h4 class="font-semibold text-lg text-white mb-4">
+                  Transparent & Efficient:
+                </h4>
+                <p class="font-medium">
+                  All transactions are visible on the blockchain.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-row-border w-full h-[1px]"></div>
+
+          <!--=== Features Row ===-->
+          <div class="flex flex-wrap justify-center">
+            <!-- Features Item -->
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+              <div class="group relative overflow-hidden text-center py-8 sm:py-10 xl:py-15 px-4 lg:px-8 xl:px-13">
+                <span
+                  class="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+                <span
+                class="icon-border relative max-w-[80px] w-20 h-20 rounded-none inline-flex items-center justify-center mb-8 mx-auto">
+                  <img src="./images/eliminate-removebg-preview.png" alt="icon" />
+                </span>
+                <h4 class="font-semibold text-lg text-white mb-4">
+                  Eliminating Intermediaries.
+                </h4>
+                <p class="font-medium">
+                  Smart contracts run on a decentralized network, eliminating intermediaries and reducing fraud risk.
+                </p>
+              </div>
+            </div>
+
+            <!-- Features Item -->
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+              <div class="group relative overflow-hidden text-center py-8 sm:py-10 xl:py-15 px-4 lg:px-8 xl:px-13">
+                <span
+                  class="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+                <span
+                class="icon-border relative max-w-[80px] w-20 h-20 rounded-none inline-flex items-center justify-center mb-8 mx-auto">
+                  <img src="./images/swift.png" alt="icon" />
+                </span>
+                <h4 class="font-semibold text-lg text-white mb-4">
+                  Swift Transactions:
+                </h4>
+                <p class="font-medium">
+                  Experience quicker transactions with blockchain technology over traditional systems.
+                </p>
+              </div>
+            </div>
+
+            <!-- Features Item -->
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+              <div class="group relative overflow-hidden text-center py-8 sm:py-10 xl:py-15 px-4 lg:px-8 xl:px-13">
+                <span
+                  class="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+                <span
+                class="icon-border relative max-w-[80px] w-20 h-20 rounded-none inline-flex items-center justify-center mb-8 mx-auto">
+                  <img src="./images/passive-removebg-preview.png" alt="icon" />
+                </span>
+                <h4 class="font-semibold text-lg text-white mb-4">
+                  Earn Passively:
+                </h4>
+                <p class="font-medium">
+                  Generate passive income by leveraging the platform's lending and borrowing features.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+          
+    <!-- ====== Pricing Section End -->
+
+    
+    <!-- ====== User Section End -->
+
+    <!-- ====== Clients Section Start -->
+    <section class="py-19">
+      <div class="max-w-[1104px] mx-auto px-4 sm:px-8 xl:px-0">
+        <div class="relative overflow-hidden z-10">
+          <span
+            class="max-w-[128px] w-full h-[37px] block inset-0 pointer-events-none absolute z-10 left-0 top-1/2 -translate-y-1/2 bg-gradient-to-l from-dark/0 to-dark/100"></span>
+          <span
+            class="max-w-[128px] w-full h-[37px] block inset-0 pointer-events-none absolute z-10 left-auto top-1/2 -translate-y-1/2 bg-gradient-to-r from-dark/0 to-dark/100"></span>
+          <div class="swiper clients-carousel">
+            <div class="swiper-wrapper items-center select-none !ease-linear">
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/uniswap-removebg-preview.png" alt="client" />
+                </a>
+              </div>
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/dextools_final-removebg-preview.png" alt="client" />
+                </a>
+              </div>
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/unicrypt-network-removebg-preview.png" alt="client" />
+                </a>
+              </div>
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/ooooo.png" alt="client" />
+                </a>
+              </div>
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/DexScreener_finalsss-removebg-preview.png" alt="client" />
+                </a>
+              </div>
+
+
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/scan.png" alt="client" />
+                </a>
+              </div>
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/yahoo-removebg-preview.png" alt="client" />
+                </a>
+              </div>
+              
+              
+             
+              <div class="swiper-slide !w-auto">
+                <a href="/#">
+                  <img src="./images/hero/Benzinga-Logo-removebg-preview.png" alt="client" />
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Clients Section End -->
+
+    <!-- ====== Support Section Start -->
+    
+
+         
+    <!-- ====== Support Section End -->
+
+    <!-- ====== Blog Section Start -->
+    
+
+          <!-- blog item -->
+          
+    <!-- ====== Blog Section End -->
+
+    <!-- ====== CTA Section Start -->
+    <section>
+      <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
+        <div class="cta-box-gradient bg-dark rounded-[30px] relative overflow-hidden px-4 py-20 lg:py-25 z-999">
+          <!-- bg shapes -->
+          <span class="absolute bottom-0 left-0 -z-1"><img src="./images/cta/grid.svg" alt="grid" /></span>
+          <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
+            <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
+              <img src="./images/blur/blur-22.svg" alt="blur" class="max-w-none">
+            </span>
+            <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
+              <img src="./images/blur/blur-23.svg" alt="blur" class="max-w-none">
+            </span>
+            <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
+              <img src="./images/blur/blur-24.svg" alt="blur" class="max-w-none">
+            </span>
+          </div>
+
+          <!-- stars -->
+          
+
+          <div class="wow fadeInUp text-center">
+            
+
+         
+            </span>
+            <h2 class="text-white mb-4.5 text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
+              Financial Freedom, On Your Terms.
+            </h2>
+            <p class="max-w-[714px] mx-auto font-medium mb-9">
+              Trade responsibly. Always verify and interact only with contracts shared through our official socials and website. Please note that crypto and financial assets are highly volatile.
+              <br><br> CONTRACT: TBA
+            </p>
+
+            <a href="https://app.uniswap.org/swap"
+   class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80"
+   style="margin-top: -10px;">
+   Buy $SOLDI
+</a>
+
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== CTA Section End -->
+
+    <!-- ====== Newsletter Section Start -->
+    <section class="pt-17.5 sm:pt-22.5 xl:pt-27.5 pb-11">
+      <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
+        <div class="flex flex-wrap items-center justify-between gap-10">
+          <div class="max-w-[352px] w-full">
+            <h3 class="font-semibold text-heading-5 text-white mb-2">
+              JOIN THE $SOLDI COMMUNITY!
+            </h3>
+            <p class="font-medium">
+              Powered by the Ethereum Network.
+            </p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Newsletter Section End -->
+  </main>
+  <!-- ===== Footer Start ===== -->
+  <include src="./partials/footer.html" />
+  <!-- ===== Footer End ===== -->
+
+  <!-- ====== Back To Top Start ===== -->
+  <include src="./partials/scrolltop.html" />
+  <!-- ====== Back To Top End ===== -->
+</body>
+
+</html>
